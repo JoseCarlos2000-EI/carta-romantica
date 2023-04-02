@@ -44,7 +44,7 @@
     padding: 20px;
     text-align: center;
     color: #fff;
-    font-size: 24px;
+    font-size: 50px;
     font-weight: bold;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     background-color: rgba(0,0,0,0.5);
@@ -96,7 +96,7 @@
 
   @media screen and (max-width: 768px) {
     .text {
-      font-size: 18px;
+      font-size: 50px;
     }
   
     .prev, .next {
@@ -118,7 +118,30 @@
   
   @media screen and (max-width: 480px) {
     .text {
-      font-size: 16px;
+      font-size: 50px;
+      padding: 10px;
+    }
+  
+    .prev, .next {
+      font-size: 20px;
+      padding: 3px;
+      margin-top: -10px;
+    }
+  
+    .dot-container {
+      bottom: 5px;
+    }
+  
+    .dot {
+      height: 6px;
+      width: 6px;
+      margin: 0 2px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .text {
+      font-size: 50px;
       padding: 10px;
     }
   
