@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slideshow Romántico</title>
+  <link rel="stylesheet" type="text/css" href="app.css">
+  <script>
+    window.addEventListener("load", function(){
+      var miAudio = document.getElementById("miAudio");
+      miAudio.volume = 0.3; 
+    });
+  </script>
+</head>
+<body>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="https://www.imagenesdeamortop.com/wp-content/uploads/2018/07/Imagenes-de-amanecer-romantico-haciendo-una-corazon-1200x800.jpg">
+      <div class="text">Hola...</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="https://i.pinimg.com/736x/3d/3c/87/3d3c87d6803f26ca9254a4f7f880d7d9.jpg">
+      <div class="text">No sé si te has dado cuenta, pero desde que te conocí, no he podido sacarte de mi mente. Cada vez que pienso en ti, mi corazón late más rápido y siento un cosquilleo en el estómago.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="https://img.freepik.com/fotos-premium/hermosa-pareja-divirtiendose-bailando-campos-girasoles_154515-4687.jpg">
+      <div class="text">Supongo que esto significa que estoy empezando a sentir algo muy especial por ti.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="https://img.freepik.com/foto-gratis/joven-pareja-romantica-sexy-enamorada-feliz-playa-verano-juntos-divirtiendose-vistiendo-trajes-bano-mostrando-signo-corazon-sundet_285396-6545.jpg">
+      <div class="text">Me encanta la forma en que eres capaz de iluminar mi día con una simple sonrisa o una mirada. Tu energía positiva es contagiosa y me hace sentir vivo. Me gusta cómo puedes hacerme sentir cómodo en tu presencia, como si no hubiera nada más importante que estar a tu lado.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="https://media.glamour.mx/photos/619054ff2d97bd4c522a2e3d/master/w_1600%2Cc_limit/259248.jpg">
+      <div class="text">No sé qué depara el futuro, pero sí sé que contigo a mi lado, cualquier obstáculo se vuelve más fácil de superar. Me siento afortunado de haberte conocido y no puedo esperar a ver lo que nos depara el destino.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="https://cdnm.westwing.com/image/upload/v1/contenthub/app/uploads/es/2020/12/03103320/citas-online.jpg">
+      <div class="text">Espero que sepas que tienes un lugar especial en mi corazón y que siempre estaré aquí para ti. </div>
+    </div>
+
+    <div class="mySlides fade">
+        <img src="https://www.infopalante.org/hc/article_attachments/4407077249303/hermosa-pareja-pasa-tiempo-ciudad-verano_1157-20044_1_-kZxC--620x349_abc.jpeg">
+        <div class="text">Te prometo que siempre estaré a tu lado y que nunca soltaré tu mano <3 </div>
+      </div>
+      <div  style="display:flex; justify-content: center; align-items: center;" class="mySlides fade">
+        <img style="max-width: 50%;height: 30%;aspect-ratio: 16/9;" src="https://cdn-icons-png.flaticon.com/512/8561/8561586.png">
+        <div class="text">**SORPRESA**</div>
+      </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  
+  <br>
+  <audio id="miAudio" autoplay>
+    <source src="audio.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="app.js"></script>
+</body>
+</html>
